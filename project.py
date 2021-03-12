@@ -7,7 +7,7 @@ import string
 stop_words = stopwords.words('english')
 
 # add capitalized stop words
-added_stops = ['I', 'To', 'The', 'It', 'If', 'And', 'But', 'She', 'He', 'For', 'Where', 'So']
+added_stops = ['To', 'The', 'It', 'If', 'And', 'But', 'She', 'He', 'For', 'Where', 'So']
 stop_words.extend(added_stops)
 
 # add incorrect words
